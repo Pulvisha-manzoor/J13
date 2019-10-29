@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<style>
+		input[type=text]{
+			display: ;
+			width: 50%;
+			padding: 10px 12px;
+			border: 1px solid black;
+			border-radius: 5px;
+			box-sizing: border-box;
+			margin-bottom: 10px;
+			margin-left: 10px;
+			/*margin-left: 0px auto */;
+		}
+		input[type=Email] ,select{
+			display: ;
+			width: 50%;
+			padding: 10px 12px;
+			border: 1px solid black;
+			border-radius: 5px;
+			box-sizing: border-box;
+			margin-left: px;
+			margin-bottom: 10px;
+			/*margin-left: 0px auto;*/
+			margin-left: 35px;
+		}
+
+		.button{
+			border: none;
+			padding: 10px 10px;
+			margin:8px 0px;
+			background-color: #0080ff;
+			color: white;
+			width: 100px;
+			border-radius: 6px;
+			margin-left:  15%;
+		}
+		div{
+
+			border-radius: 5px;
+			padding: 20px;
+			background-color: cyan;
+			width: 50%;
+			text-align: center;
+			margin: 0 auto;
+		}
+		  input[type=Email]{
+			margin-left: 50px;
+			width: 50%;
+		}
+
+	</style>
+</head>
+<body>
+	<h1 style="text-align: center;color: #0080ff;background-color: cyan">Application Form</h1>
+<div>
+<form action="">
+	<label for="fname" >First Name</label>
+	<input type="text" id="fname" name="First Name" placeholder="Your first name">
+	<br>
+	<label for="lname" >Last Name</label>
+	<input type="text" id="lname" name="Last Name" placeholder="Your last name">
+	<br>
+	<label for="country" >Country</label>
+	<select id="country" name="Country">
+		<option value="USA">USA</option>
+		<option value="Pakistan">Pakistan</option>
+		<option value="Saudi Arabia">Saudi Arabia</option>
+		<option value="Africa">Africa</option>
+	</select><br>
+	<label for="Courses" >Courses</label>
+	<select id="Courses" name="Courses"> 
+		<option value="Web Designing & Development">Web Designing & Development</option>
+		<option value="Andriod Development">Andriod Development</option>
+		<option value="Graphic Designing">Graphic Designing</option>
+		<option value="Networking">Networking</option>
+	</select><br>
+	<label for="email" >Email</label>
+	<input class="em" type="email" id="email" name="Email" placeholder="ABC@gmail.com">
+	<br>
+
+	<input class="button" type="button"  value="submit">
+</div>
+</form>
+</body>
+</html>
