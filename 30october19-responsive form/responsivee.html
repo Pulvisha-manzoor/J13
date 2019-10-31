@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Responsive</title>
+	<style>
+	*{
+		box-sizing: border-box;
+	}
+		input[type=text],select,textarea{
+			width: 100%;
+			padding: 12px;
+			border:1px solid black;
+			border-radius: 5px;
+			resize: vertical;
+		}
+
+		label{
+			padding: 12px 12px 12px 0px;
+			display: inline-block;
+		}
+		input[type=submit]{
+			color: white;
+			background-color: #b30059;
+			padding: 12px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			float: right;
+			margin-top: 10px;
+			
+		}
+		input[type=submit]:hover{
+			background-color:  #99004d;
+		}
+		.container{
+			border-radius: 6px;
+			background-color: pink;
+			padding: 20px;
+			overflow: hidden;
+			width: 60%;
+			margin:0 auto;
+		}
+		.col-25{
+			width: 25%;
+			float: left;
+			margin-top: 6px;
+		}
+		.col-75{
+			width: 75%;
+			float: left;
+			margin-top: 6px;
+		}
+		.row:after{
+			content: "";
+			display: table;
+			clear: both;
+		}
+		@media screen and (max-width: 600px) {
+			col-25, col-75, input[type=submit]{
+				width: 100px;
+				margin-top: 10px;
+			}
+		}
+	</style>
+</head>
+<body>
+	
+<div class="container">
+	<h2 style="background-color: pink;text-align: center;" >Responsive Form</h2>
+	<form>
+		<div class="row">
+			<div class="col-25">
+				<label for="Fname">First Name</label>
+			</div>
+			<div class="col-75">
+				<input type="text" id="Fname" name="Fisrt Name" placeholder="Enter Your First Name">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-25">
+				<label for="Lname">Last Name</label>
+			</div>
+			<div class="col-75">
+				<input type="text" id="Lname" name="Last Name" placeholder="Enter Your Last Name">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-25">
+				<label for="Country">Country</label>
+			</div>
+			<div class="col-75">
+				<select id="Country" name="country">
+					<option value="Pakistan">Pakistan</option>
+					<option value="USA">USA</option>
+					<option value="Africa">Africa</option>
+					<option value="Saudi Arabia">Saudi Arabia</option>
+				</select>
+			</div>
+		</div>
+			<div class="row">
+				<div class="col-25">
+					<label for="Subjects">Subjects</label>
+				</div>
+	            <div class="col-75">
+	            	<textarea id="Subjects" name="Subjects" placeholder="Write something.." style="height:200px"></textarea>
+	            </div>
+	        </div>
+			<div class="row">
+				<input type="Submit" name="Submit">
+			</div>
+	</form>
+	
+</div>
+</body>
+</html>

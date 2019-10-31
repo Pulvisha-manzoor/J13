@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Responsive Form</title>
+	<style> 
+    *{
+    	box-sizing: border-box;
+    }
+    input[type=text],select,textarea{
+    	width: 100%;
+    	padding: 10px;
+    	border: 1px solid black;
+    	border-radius: 5px;
+    	resize: vertical;
+    }
+    label{
+    	padding: 12px 12px 12px 0px;
+    	display: inline-block;
+    	color: white;
+    }
+    input[type=submit]{
+    	padding: 12px 10px;
+    	background-color:#004d26;
+    	color: white;
+    	border-radius: 5px;
+    	width: 15%;
+    	float: right;
+    	cursor:pointer
+    	border:none;
+    	margin-top: =-50;
+    	font-size: 15px;
+    	margin:30px 0px;
+    }
+    input[type=submit]:hover{
+    	background-color: #00331a;
+    }
+    .container{
+    	background-color:  #008080;
+    	width: 70%;
+    	padding: 25px;
+    	border-radius: 6px;
+    	margin: 0 auto;
+    	overflow: hidden;
+    }
+   
+
+
+    </style>
+</head>
+<body>
+	<h2 style="text-align: center;background-color: #008080;color:white;">Responsive Form</h2>
+ <div class="container">
+ 	<form action="" method="GET">
+ 		<div class="row">
+ 			<div class="col-25">
+ 				<label for="fname">First Name</label>
+ 				<div class="col-75">
+ 					<input type="text" id="fname" name="First" placeholder="Enter First name">
+ 				</div>
+ 			</div>
+ 			
+ 			<div class="row">
+ 			<div class="col-25">
+ 				<label for="lname">Last Name</label>
+ 				<div class="col-75">
+ 					<input type="text" id="lname" name="First" placeholder="Enter First name">
+ 				</div>
+ 			</div>
+ 			<div class="row">
+ 			<div class="col-25">
+ 				<label for="Country">Country</label>
+ 				<div class="col-75">
+ 					<select id="Country" name="Country">
+ 						<option value="Saudi Arabia">Saudi Arabia</option>
+ 						<option value="USA">USA</option>
+ 						<option value="Pakistan">Pakistan</option>
+ 						<option value="Canada">Canada</option>
+ 						<option value="Africa">Africa</option> 					    
+ 					</select>
+ 				</div>
+ 			</div>
+ 		</div>
+ 		<div class="row">
+ 			<div class="col-25">
+ 				<label for="subjects">Subjects</label>
+ 				<div class="col-75">
+ 					<textarea id="subjects" name="Subjects" placeholder="Write something..." style="height: 200px"></textarea>
+ 				</div>
+ 				<div class="row">
+ 					<input type="submit" name="submit">
+ 				</div>
+ 			</div>
+ 	</form>
+ </div>
+</body>
+</html>
