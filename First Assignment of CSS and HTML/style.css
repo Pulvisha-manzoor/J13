@@ -1,0 +1,272 @@
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('fonts/ballpark.eot');
+    src: url('fonts/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ballpark.woff') format('woff'),
+         url('fonts/ballpark.ttf') format('truetype'),
+         url('fonts/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('fonts/dayrom.eot');
+    src: url('fonts/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dayrom.woff') format('woff'),
+         url('fonts/dayrom.ttf') format('truetype'),
+         url('fonts/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+	background-color: #dadada;
+	color: #181818;
+	font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+#wrapper{
+	width: 1100px;
+	margin: auto;
+}
+#title{
+    display: inline-block;
+}
+header h1{
+	font-family: 'BallparkWeiner', serif;
+	font-size: 2.5EM;
+	font-weight: normal;
+}
+nav a{
+	font-weight: normal;
+	text-transform: uppercase;
+	font-family: Dayrom, serif;
+}
+header h1{
+	margin-top: -10px;
+}
+#logo, header h1{
+	display: inline-block;
+	margin-bottom: 0px;
+}
+header h2{
+	text-shadow: 2px 2px 5px black;
+	font-family: Dayrom, serif;
+	font-size: 1.1en;
+	margin-top: 0px;
+	font-weight: normal;
+}
+header{
+	background: url(images/line.png) repeat-x bottom;
+}
+nav{
+	margin-left: 200px;
+	display: inline-block;
+	width: 740px;
+	text-align: right;
+}
+nav ul{
+	list-style-type: none;
+}
+nav li{
+	display: inline-block;
+	margin-right: 15px;
+}
+nav a{
+	font-size: 1.3em;
+	color: #181818;
+	padding-bottom: 3px;
+	text-decoration: none;
+}
+nav a:hover{
+	/*color: #760001;*/
+	color: #66004b;
+	border-bottom: 3px solid #66004b;
+    
+}
+#banner{
+	margin-top: 15px;
+	height: 250px;
+	border-radius: 5px;
+	background: url(images/banner30.jpg) no-repeat;
+	background-size: 100%;
+	position: relative;
+	box-shadow: 0px 4px 4px #1c1a19;
+	margin-bottom: 25px;
+}
+#banner-description{
+	position: absolute;
+	bottom: 0;
+	border-radius: 0px 0px 5px 5px;
+	width: 99.5%;
+	height: 33px;
+	padding-top: 15px;
+	padding-left: 4px;
+	background-color: rgba(24,24,24,0.8);
+	color: white;
+	font-size: 0.8em;
+}
+.red-button{
+	display: inline-block;
+	height: 24px;
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+	/*background: url(images/red_background.png) repeat-x;*/
+	background-color: #66004b;
+	border:1px solid #66004b;
+	border-radius: 5px;
+	font-size: 1,2em;
+	text-align: center;
+	padding: 9px 8px 0px 8px;
+	color: white;
+	text-decoration: none;
+}
+.red-red{
+	border:0;
+
+}
+#super{
+	margin-left: 7px;
+}
+article, aside
+{
+	display: inline-block;
+	vertical-align: top;
+	text-align: justify;
+}
+article{
+	width: 750px;
+	margin-right: 15px;
+	background: white;
+	border-radius: 5px;
+	padding:25px;
+	box-shadow: 0px 2px 5px #1c1a19;
+}
+article p{
+	font-size: 1em;
+
+}
+aside{
+	position: relative;
+	width: 255px;
+	height: 591px;
+	background-color: white;
+	box-shadow: 0px 2px 5px #1c1a19;
+	border-radius: 5px;
+	padding: 10px;
+	color: black;
+	font-size: 0.9em;
+}
+#arrow{
+	position: absolute;
+	top: 100px;
+	left: -12px;
+	height: 50px;
+	width: 50px;
+}
+.icon{
+
+    vertical-align: middle;
+    margin-right: 8px;
+}
+#pic{
+	text-align: center;
+}
+#pic img{
+	border:1px solid #181818;
+}
+aside img{
+	margin-right: 5px;
+}
+section article  h1 {
+	text-shadow: 2px 2px 5px blue;
+}
+section article p{
+	text-shadow: 2px 2px 5px MediumSeaGreen;
+}
+section aside  h1 {
+	text-shadow: 2px 2px 5px blue;
+}
+section aside p{
+	text-shadow: 2px 2px 5px MediumSeaGreen;
+}
+
+footer{
+	background: url(images/line.png) repeat-x top;
+margin-top: 10px;
+background-color: white;
+border-radius: 5px;
+	padding:25px;
+	box-shadow: 0px 2px 5px #1c1a19;
+}
+footer p, footer ul{
+	font-size: 0.8em;
+}
+footer h1{
+	font-size: 1.1em;
+}
+#skills, #edu, #friends{
+	display: inline-block;
+	vertical-align: top;
+}
+#edu{
+	width: 28%;
+}
+#skills{
+	margin-left: 20px;
+	width: 38%;
+}
+#friends{
+	width: 30%;
+	line-height: 1px;
+}
+#my img{
+	border:1px solid #181818;
+	margin-right: 2px;
+}
+footer h1{
+	text-shadow: 2px 2px 5px blue;
+}
+footer li{
+	text-shadow: 2px 2px 5px MediumSeaGreen;
+}
+}
+#friends img{
+	vertical-align: middle;
+	margin-right: 8px;
+}
+#friends h1{
+	margin-top: 20px;
+	text-shadow: 2px 2px 5px blue;
+}
+#friends h6{
+	text-shadow: 2px 2px 5px MediumSeaGreen;
+	line-height: -10px;
+}
+#skills{
+	margin-top: -120px;
+	list-style-image: url(images/tick.png);
+	line-height: 25px;
+	vertical-align: middle;
+}
+#skills ul{
+	margin-top: 0px;
+}
+#skills h1{
+      margin-top: 120px;
+      margin-left: 10px;
+}
+#edu{
+	margin-top: 10px;
+   list-style-image: url(images/tick.png);
+	/*line-height: 2px;*/
+	vertical-align: middle;
+}#edu h1{
+	vertical-align: middle;
+	margin-right: 8px;
+}
+.copy{
+	text-align: center;
+}
